@@ -1,0 +1,47 @@
+[
+  {
+    "title": "2048",
+    "url": "https://play2048.co/",
+    "tags": ["puzzle", "casual"],
+    "thumbnail": "https://play2048.co/meta/og_image.jpg",
+    "popularity": 90,
+    "added": 20250101,
+    "description": "Slide tiles to add up to 2048."
+  },
+  {
+    "title": "Slope",
+    "url": "https://y8.com/games/slope",
+    "tags": ["arcade", "reaction"],
+    "thumbnail": "https://img.y8.com/cloud/v2-y8-thumbs-big/thumbnail-153317.jpg",
+    "popularity": 85,
+    "added": 20250102,
+    "description": "Fast-paced downhill reflex challenge."
+  },
+  {
+    "title": "Krunker",
+    "url": "https://krunker.io/",
+    "tags": ["fps", "multiplayer"],
+    "thumbnail": "https://krunker.io/img/og.png",
+    "popularity": 88,
+    "added": 20241220,
+    "description": "Blocky browser FPS."
+  },
+  {
+    "title": "Crossy Road web",
+    "url": "https://ubg100.github.io/crossyroad/",
+    "tags": ["arcade", "retro"],
+    "thumbnail": "https://ubg100.github.io/crossyroad/icon.png",
+    "popularity": 70,
+    "added": 20250103,
+    "description": "Hop across traffic."
+  },
+  {
+    "title": "Chess",
+    "url": "https://lichess.org/",
+    "tags": ["strategy", "board"],
+    "thumbnail": "https://lichess.org/assets/logo/lichess-logo.png",
+    "popularity": 92,
+    "added": 20241210,
+    "description": "Fast, free, open-source chess."
+  }
+]
