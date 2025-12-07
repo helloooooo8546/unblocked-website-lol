@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arcade Nexus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <div class="logo">⌁</div>
+      <h1>Arcade Nexus</h1>
+    </div>
+    <div class="actions">
+      <input id="search" type="search" placeholder="Search games..." aria-label="Search games" />
+      <button id="themeToggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Play instantly. No installs.</h2>
+      <p>Curated browser-friendly games that load fast and respect your time.</p>
+    </section>
+
+    <section class="filters">
+      <div class="tags" id="tags"></div>
+      <select id="sort">
+        <option value="popular">Popular</option>
+        <option value="new">New</option>
+        <option value="az">A–Z</option>
+      </select>
+    </section>
+
+    <section class="grid" id="grid" aria-live="polite"></section>
+
+    <section class="empty" id="empty" hidden>
+      <h3>No matches found</h3>
+      <p>Try a different search or tag.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Built for speed. Hosted on Vercel.</p>
+    <nav>
+      <a href="/about.html">About</a>
+      <a href="/privacy.html">Privacy</a>
+    </nav>
+  </footer>
+
+  <script src="/script.js" type="module"></script>
+</body>
+</html>
